@@ -12,6 +12,11 @@ This is a Node js Hiring Tournament - Season 1.
 -   You should also have any SQL/noSQL databse installd in your machine. (e.g MongoDB)
 -   If you don't have any of the DB installed, then you can use SQLite too.
 
+### Change to node version v14.15.1
+```
+nvm use
+```
+
 ### Install all dependencies for this Tournamanet.
 
 ```bash
