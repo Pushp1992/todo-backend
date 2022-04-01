@@ -1,9 +1,9 @@
-#  Node js ToDo Service
+#  Node.s ToDo Service
 
 This is a Node js Hiring Tournament - Season 1. 
 
 #   Note
-- .env file is committed intentionally for this task. We should never comming any env variable
+- .env file is committed intentionally for this task. We should never committing any env variable
 
 ## Required Prerequisites
 
