@@ -12,13 +12,16 @@ module.exports = (app) => {
     app.get('/fetch/:id', ToDo.findOne);
 
     // fetch all ToDo Task
-    app.get('/fetch-all', ToDo.findAll);
+    app.get('/fetch', ToDo.findAll);
 
     // Update existing ToDo Task
     app.put('/update/:id', ToDo.update);
 
     // Delete existing ToDo Task
-    app.delete('/delete?:id', ToDo.delete);
+    app.delete('/delete/:id', ToDo.delete);
+
+    // Delete all ToDo Task
+    app.delete('/delete', ToDo.deleteAll);
 
 
 }
