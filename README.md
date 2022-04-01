@@ -2,6 +2,9 @@
 
 This is a Node js Hiring Tournament - Season 1. 
 
+#   Note
+- .env file is committed intentionally for this task. We should never comming any env variable
+
 ## Required Prerequisites
 
 -   You will need to have node installed in your machine
