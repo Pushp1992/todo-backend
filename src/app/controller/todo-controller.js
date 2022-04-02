@@ -77,7 +77,7 @@ exports.findAll = (req, res) => {
     ToDoModel.find()
         .then(task => {
             if (!task.length) {
-                return res.status(404).send({
+                return res.status(204).send({
                     data: task,
                     statusCode: res.statusCode,
                     message: `Task List is empty`
@@ -192,6 +192,7 @@ exports.deleteAll = (req, res) => {
         })
         .catch(err => {
             return res.status(500).send({
+                statusCode: res.statusCode,
                 message: `${err.message} || unable to delete task`
             });
         });
