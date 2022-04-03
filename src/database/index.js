@@ -10,7 +10,7 @@ const DbConnection = mongoose.connect(DbConfig.url, {
     useNewUrlParser: true
 })
     .then(() => {
-        console.log(`Connection successfull`)
+        console.log(` \n \n 🚀 Connection successfull 🚀`)
     })
     .catch(err => {
         console.log(`Connection failed \n . Error: ${err}`);
