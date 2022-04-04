@@ -29,6 +29,14 @@ npm i
 npm run dev
 ```
 
+- Once server is started propery, you must beable to see below information
+
+```
+server is listening to http://localhost:8085
+  
+🚀 Connection successfull 🚀
+```
+  
 ## Note:
 
 -   Running `npm run dev` will eventually start mongoDB and all it's dependency.
